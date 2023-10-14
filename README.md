@@ -2,11 +2,9 @@
 This is a tool to export SSL certificate expiration timestamps for Prometheus
 
 
-###############################################################
-###############################################################
+
 _____________________Certificate Exporter______________________
-###############################################################
-###############################################################
+
 This is a tool to export SSL certificate expiration timestamps for prometheus
 
 01. Open an elevated cmd
@@ -31,11 +29,5 @@ NOTE: When starting the service, it can give you an error but the service should
 verify it by going to http://localhost:9120/metrics
 
 
-
-
-
-###############################################################
-###############################################################
 		Developed by : Shehan Somaweera
-###############################################################
-###############################################################
+
