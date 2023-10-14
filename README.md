@@ -15,9 +15,9 @@ This is a tool to export SSL certificate expiration timestamps for prometheus
 	.\nssm.exe install
 
 04. Fill these details;
-	Path: C:\Windows\System32\msiexec.exe
-	Startup Directory: C:\temp\CertificateExporter         <<<--- The folder which have the msi file
-	Arguments: /i "C:\temp\CertificateExporter\CertificateExporter.msi" /quiet   
+	- Path: C:\Windows\System32\msiexec.exe
+  	- Startup Directory: C:\temp\CertificateExporter         <<<--- The folder which have the msi file
+		Arguments: /i "C:\temp\CertificateExporter\CertificateExporter.msi" /quiet   
 
 	Service Name: CertificateExporter
 
