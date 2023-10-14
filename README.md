@@ -1,5 +1,5 @@
 # Certificate-Exporter-Prometheus
-This is a tool to export SSL certificate expiration timestamps for Prometheus
+This is a tool to export SSL certificate expiration timestamps for Prometheus in windows servers
 
 
 
