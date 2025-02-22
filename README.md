@@ -41,12 +41,12 @@ To stop and delete the service from your system, use the below steps with an ele
 sc query | find "SERVICE_NAME"
 
 Step 1 – Stop the Service
-`sc stop [Service name]`
+		`sc stop [Service name]`
 
 where [Service name] has been obtained from the the query above
 
 Step 2 – Delete the Service
-`sc delete [service name]`
+		`sc delete [service name]`
 
 where [Service name] has been obtained from the the query above
 
