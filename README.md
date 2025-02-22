@@ -18,13 +18,15 @@ To use the solution as a windows service, clone the repository and follow the be
 02. cd into CertificateExporter folder (Copy the files into an admin's any folder)
 
 03. Execute command;
-		.\nssm.exe install
+```
+.\nssm.exe install
+```
 
 04. Fill these details;
-	- Path: C:\Windows\System32\msiexec.exe
-  	- Startup Directory: C:\temp\CertificateExporter         <<<--- The folder which have the msi file
-    	- Arguments: /i "C:\temp\CertificateExporter\CertificateExporter.msi" /quiet   
-	- Service Name: CertificateExporter
+	- Path: `C:\Windows\System32\msiexec.exe`
+  	- Startup Directory: `C:\temp\CertificateExporter`        <<<--- The folder which have the msi file
+    	- Arguments: `/i "C:\temp\CertificateExporter\CertificateExporter.msi" /quiet` 
+	- Service Name: `CertificateExporter`
 
 05. Click Install
 
@@ -41,12 +43,16 @@ To stop and delete the service from your system, use the below steps with an ele
 sc query | find "SERVICE_NAME"
 
 Step 1 – Stop the Service
-		`sc stop [Service name]`
+```
+sc stop [Service name]
+```
 
 where [Service name] has been obtained from the the query above
 
 Step 2 – Delete the Service
-		`sc delete [service name]`
+```
+sc delete [service name]
+```
 
 where [Service name] has been obtained from the the query above
 
