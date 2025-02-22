@@ -9,7 +9,7 @@ _____________________Certificate Exporter______________________
 
 This is a tool to export SSL certificate expiration timestamps for prometheus
 
-You can just open the `CertificateExporter.msi` to run it or use the tool as a Windows Service by following the below steps.
+You can just open the `CertificateExporter.msi` to run it in the background or use the tool as a Windows Service by following the below steps.
 
 To use the solution as a windows service, clone the repository and follow the below steps. 
 
