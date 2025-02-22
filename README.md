@@ -18,7 +18,7 @@ To use the solution as a windows service, clone the repository and follow the be
 02. cd into CertificateExporter folder (Copy the files into an admin's any folder)
 
 03. Execute command;
-	.\nssm.exe install
+	```.\nssm.exe install```
 
 04. Fill these details;
 	- Path: C:\Windows\System32\msiexec.exe
